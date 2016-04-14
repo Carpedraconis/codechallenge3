@@ -33,10 +33,9 @@ function myTpl (filename) {
 		var theKey;
 
 		for (key in fields) {
-	        var thisval = fields[key];
-	        //contents = contents.replace("{"+key+"}", thisval);
-	        theKey = "{"+key+"}";
-	        contents = contents.replace(new RegExp(theKey, 'g'), thisval);
+	        	var thisval = fields[key];
+	        	theKey = "{"+key+"}";
+	        	contents = contents.replace(new RegExp(theKey, 'g'), thisval);
 		}
 
 		return contents;
