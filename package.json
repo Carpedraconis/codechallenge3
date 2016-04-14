@@ -1,0 +1,13 @@
+{
+  "name": "Employees",
+  "version": "0.0.1",
+  "main":"server.js",
+  "dependencies": {
+    "express": "^4.6.1",
+    "body-parser": "^1.0.0",
+    "cookie-parser": "^1.0.0",
+    "cookie-session": "^1.0.0",
+    "mongodb":"1.2.14",
+    "monk": "0.7.1"
+  }
+}
